@@ -1,7 +1,5 @@
-// 😎💥
 
-
-// shamsi date 
+// shamsi date
 
 var d = new Date();
 var time = new Intl.DateTimeFormat('fa-IR').format(d);
@@ -35,8 +33,6 @@ for (let i = 0; i < arrNode.length; i++) {
 
 
 
-
-
 // random words number 
 
 var myArray;
@@ -51,8 +47,6 @@ function getRandomWord() {
 for (let i = 0; i < word.length; i++) {
     word[i].innerHTML = myArray[Math.floor(Math.random() * myArray.length)];
 }
-
-
 
 
 
@@ -75,28 +69,6 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scrollPercent = ($(window).scrollTop() / ($(document).height() - $(window).height())) * 100;
         $("#scrollbar").css("width", scrollPercent + "%");
-    });
-});
-
-
-
-
-// pagination
-
-$(function () {
-    $('#pagination a').on('click', function (e) {
-        e.preventDefault();
-        var page = $(this).data('page');
-        $.ajax({
-            url: '/path/to/your/page/' + page,
-            type: 'GET',
-            success: function (response) {
-                $('#content').html(response);
-            },
-            error: function () {
-                alert('Error!');
-            }
-        });
     });
 });
 
@@ -213,10 +185,6 @@ function validatecomment() {
         alert("please enter a valid name ")
         return false;
     }
-
-    // if ($('#captcha').val() === captcha) {
-    //     return true;
-    // }
 }
 
 var splide = new Splide('.splide', {
