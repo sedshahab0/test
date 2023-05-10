@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html class="no-js" dir="rtl" lang="fa-IR">
+
+<head>
+    <meta charset="UTF-8">
+    <title> ورود به سایت </title>
+    <base href="">
+    <meta name="googlebot" content="index,follow">
+    <meta name="robots" content="noodp,noydir">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body dir="rtl">
+    <div class="container-fluid px-0 ">
+        <div class="scroll-bar">
+            <div class="scroll-prograss"></div>
+        </div>
+        <!-- Header -->
+        <header class="justify-content-center">
+            <section class="">
+                <div class="top-nav col-12  justify-content-between align-items-center">
+                    <div class="container h-100 d-flex">
+                        <div class="top-nav-right col-md-6 col-sm-6 col-sm-5 col-6 ">
+                            <a href="" class="">
+                                <i class="fa fa-home"></i>
+
+                            </a>
+                            <a href="" class="">
+                                <i class="fa fa-info-circle"></i>
+
+                            </a>
+                            <a href="" class="">
+                                <i class="fa fa-envelope"></i>
+
+                            </a>
+                        </div>
+                        <div class="top-nav-left col-md-6 col-sm-6 col-sm-5 col-6 h-100">
+                            <p class="m-0 ">تاریخ امروز : </p>
+                            <p class="m-0 time ">1401/02/06</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" container px-0 ">
+                    <div class="center-nav col-12 ">
+                        <div class="center-nav-right col-12 col-md-8 col-lg-6">
+                            <div class="">
+                                <img src="img/logo.png" alt="">
+                            </div>
+                            <div class=" ">
+                                <h4 class="">سایت فیلم سریال نمایشو</h3>
+                                    <p class=" ">پایگاه نمایش فیلم و سریال های خانگی</p>
+                            </div>
+                        </div>
+                        <div class="center-nav-left col-12 col-md-4 col-lg-4 ">
+                            <input type="search" name="" id="" placeholder="جستجو کنید ...">
+                            <div class="">
+                                <i class="fa fa-search "></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="">
+                <div class="navbar-main col-12 mt-2 mt-lg-0">
+                    <ul class="container ">
+                        <li><a href="index.html" class="">صفحه اصلی</a></li>
+                        <li><a href="login.html" class=""> ورود به سایت </a></li>
+                        <li><a href="register.html" class="">ثبت نام</a></li>
+                        <li><a href="archive.html" class="">صفحه دوره ها</a></li>
+                        <li><a href="single.html" class="">صفحه جزئیات هر دوره</a></li>
+                        <li class="dropdown-nav">
+                            <a href="" class="">
+                                دسته بندی
+                                <i class="fa fa-arrow-down mr-2"></i>
+                            </a>
+                            <ul class="dropdown-group ">
+                                <li>
+                                    <i class="fa fa-angle-left"></i>
+                                    <a href="" class="">فیلم سینمایی ایرانی</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-left"></i>
+                                    <a href="" class="">سریال ایرانی</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-left"></i>
+                                    <a href="" class="">سریال خارجی</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-left"></i>
+                                    <a href="" class="">فیلم سینمایی خارجی</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </header>
+        <!-- End Header -->
+        <!-- Main -->
+        <main class="container d-flex flex-column flex-md-row align-items-start">
+            <section class="col-12 col-lg-8 mt-5">
+                <section class="border rounded-sm py-2 px-4 ">
+                    <form action="" class="text-right ">
+                        <div class="mt-2">
+                            <label for="email" class="">ایمیل</label>
+                            <input class="form-control" type="text" name="" id="email" placeholder="ایمیل">
+                        </div>
+                        <div class="mt-2">
+                            <label for="pass" class="">رمز عبور</label>
+                            <input class="form-control" type="password" name="" id="password" placeholder="رمز عبور">
+
+                        </div>
+
+                        <div class="d-flex flex-wrap align-items-center justify-content-between mt-4">
+                            <div class=" w-25 mt-4">
+                                <button class="btn btn-success w-100" onclick="validateForm()">ورود به سایت</button>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="" class="text-right d-none">
+                        <div class="mt-2">
+                            <label for="number-phone" class="">شماره تلفن</label>
+                            <input class="form-control" type="text" name="" id="number-phone" placeholder="شماره تلفن">
+                        </div>
+                        <div class="mt-2">
+                            <label for="pass" class="">رمز عبور</label>
+                            <input class="form-control" type="text" name="" id="pass" placeholder="رمز عبور">
+
+                        </div>
+
+                        <div class="d-flex flex-wrap align-items-center justify-content-between mt-4">
+                            <div class="d-flex align-items-center justify-content-start w-75">
+                                <label for="" class="ml-2 mb-0">مرا به خاطر بسپار</label>
+                                <input type="checkbox" name="" id="">
+                            </div>
+                            <a class="text-decoration-none text-secondary py-1 w-25 text-left"> حساب کاربری ندارم </a>
+                            <div class=" w-25 mt-4">
+                                <button class="btn btn-success w-100">ورود</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </section>
+            <!-- Aside -->
+            <aside class=" col-lg-4">
+                <div class="aside col-12">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-folder "></i>
+                        <h6 class="">دسته بندی ها</h6>
+                    </div>
+                    <ul class="">
+                        <li>
+                            <i class="fa fa-angle-left"></i>
+                            <a href="" class="">فیلم سینمایی ایرانی</a>
+                            <div class="badge-custom">
+                                <span class="category">15</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-left"></i>
+                            <a href="" class="">سریال ایرانی</a>
+                            <div class="badge-custom">
+                                <span class="category">15</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-left"></i>
+                            <a href="" class="">سریال خارجی</a>
+                            <div class="badge-custom">
+                                <span class="category">15</span>
+                            </div>
+                        </li>
+                        <li class="border-0">
+                            <i class="fa fa-angle-left"></i>
+                            <a href="" class="">فیلم سینمایی خارجی</a>
+                            <div class="badge-custom">
+                                <span class="category">15</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aside-visited col-12">
+                    <div class="d-flex align-items-center visiteed-header">
+                        <i class="fa fa-star fa-2x "></i>
+                        <h6 class="">پر بازدید ترین فیلم سریال ها</h6>
+                    </div>
+                    <ul class="">
+                        <li>
+                            <div class="visited-right">
+                                <img src="img/1.png" alt="" class="" width="75" height="60">
+                            </div>
+                            <div class="visited-details">
+                                <p class="m-0">عنوان فیلم در این ناحیه قرار میگیرد</p>
+                                <div class="">
+                                    <p class="">انتشار :</p>
+                                    <p class="">1401/02/06</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="visited-right">
+                                <img src="img/1.png" alt="" class="" width="75" height="60">
+                            </div>
+                            <div class="visited-details">
+                                <p class="m-0">عنوان فیلم در این ناحیه قرار میگیرد</p>
+                                <div class="">
+                                    <p class="">انتشار :</p>
+                                    <p class="">1401/02/06</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="visited-right">
+                                <img src="img/1.png" alt="" class="" width="75" height="60">
+                            </div>
+                            <div class="visited-details">
+                                <p class="m-0">عنوان فیلم در این ناحیه قرار میگیرد</p>
+                                <div class="">
+                                    <p class="">انتشار :</p>
+                                    <p class="">1401/02/06</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="visited-right">
+                                <img src="img/1.png" alt="" class="" width="75" height="60">
+                            </div>
+                            <div class="visited-details">
+                                <p class="m-0">عنوان فیلم در این ناحیه قرار میگیرد</p>
+                                <div class="">
+                                    <p class="">انتشار :</p>
+                                    <p class="">1401/02/06</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="visited-right">
+                                <img src="img/1.png" alt="" class="" width="75" height="60">
+                            </div>
+                            <div class="visited-details">
+                                <p class="m-0">عنوان فیلم در این ناحیه قرار میگیرد</p>
+                                <div class="">
+                                    <p class="">انتشار :</p>
+                                    <p class="">1401/02/06</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="visited-right">
+                                <img src="img/1.png" alt="" class="" width="75" height="60">
+                            </div>
+                            <div class="visited-details">
+                                <p class="m-0">عنوان فیلم در این ناحیه قرار میگیرد</p>
+                                <div class="">
+                                    <p class="">انتشار :</p>
+                                    <p class="">1401/02/06</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="visited-right">
+                                <img src="img/1.png" alt="" class="" width="75" height="60">
+                            </div>
+                            <div class="visited-details">
+                                <p class="m-0">عنوان فیلم در این ناحیه قرار میگیرد</p>
+                                <div class="">
+                                    <p class="">انتشار :</p>
+                                    <p class="">1401/02/06</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="visited-right">
+                                <img src="img/1.png" alt="" class="" width="75" height="60">
+                            </div>
+                            <div class="visited-details">
+                                <p class="m-0">عنوان فیلم در این ناحیه قرار میگیرد</p>
+                                <div class="">
+                                    <p class="">انتشار :</p>
+                                    <p class="">1401/02/06</p>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </aside>
+            <!-- End Aside -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div id="footer"></div>
+
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between col-12 flex-wrap">
+                    <div class="footer-right col-12 col-md-6 mb-4">
+                        <h5 class=""> دسترسی سریع</h5>
+                        <div class="">
+                            <ul class="p-0">
+                                <li class=""><a href="" class="">صفحه اصلی</a></li>
+                                <li class=""><a href="" class="">پیوند های سایت</a></li>
+                                <li class=""><a href="" class="">فیلم سریال ها</a></li>
+                            </ul>
+                            <ul class="p-0">
+                                <li class=""><a href="" class="">قوانین سایت</a></li>
+                                <li class=""><a href="" class="">ارتباط با ما</a></li>
+                                <li class=""><a href="" class="">درباره ما</a></li>
+                            </ul>
+                            <ul class="p-0">
+                                <li class=""><a href="" class="">راهنمای سایت</a></li>
+                                <li class=""><a href="" class="">لینک 1</a></li>
+                                <li class=""><a href="" class="">لینک</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-left  h-100 d-flex flex-column  col-12 col-md-6 ">
+                        <div class="footer-left-top d-flex align-items-center justify-content-between w-100">
+                            <div class="footer-left-top-text">
+                                <h5 class="">شبکه های اجتماعی سایت
+                                </h5>
+                            </div>
+                            <div class="footer-left-top-icon d-flex align-items-start justify-content-between">
+                                <div class="">
+                                    <i class="fa fa-paper-plane"></i>
+                                </div>
+                                <div class="">
+                                    <i class="fa fa-instagram"></i>
+                                </div>
+                                <div class="">
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                                <div class="">
+                                    <i class="fa fa-facebook"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-left-bottom ">
+                            <p class="text-center text-md-right" id="copy-write">
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- End Footer -->
+    </div>
+    <script src="js/bootstrap/jquery.slim.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/particle/particles.js"></script>
+    <script src="js/effect-particle.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
